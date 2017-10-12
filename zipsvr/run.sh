@@ -7,4 +7,4 @@ docker run -d \
 -v $(pwd)/tls:/tls:ro \
 -e TLSCERT=/tls/fullchain.pem \
 -e TLSKEY=/tls/privkey.pem \
-drstearns/zipsvr
+sabrinamarlo/zipsvr
